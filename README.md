@@ -1,11 +1,11 @@
 # rn-modal-dropdown
 A react-native dropdown component for both iOS and Android.
 
-## using
+### using
 
 1、npm install git+https://github.com/liukan123/rn-modal-dropdown.git#1.0.0
 
-2、<ModalDropdown 
+2、`<ModalDropdown 
             defaultValue={this.state.patientId} 
             options={relationshipArr}
             children={(
@@ -29,4 +29,4 @@ A react-native dropdown component for both iOS and Android.
                     patientId: item.name,
                     patientRelation: item.type,
                 })
-            }}/>
+            }}/>`
